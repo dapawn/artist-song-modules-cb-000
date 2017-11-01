@@ -15,9 +15,10 @@ class Artist
 #    @@all.detect{|a| a.name == name}
 #  end
 
-#  def initialize
-#    @songs = []
-#  end
+  def initialize
+    super
+    @songs = []
+  end
 
   def self.all
     @@all
